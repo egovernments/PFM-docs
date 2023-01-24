@@ -1,0 +1,49 @@
+# Architecture
+
+Fiscal Event services flatten each fiscal event line item and post them into Druid via the Kafka Druid connector. The raw events are stored in the fiscal-events dataset in Druid. [Metabase ](https://www.metabase.com/)is used for visualisations.&#x20;
+
+The flattened fiscal event consists of the following attributes
+
+| Attribute            | Description                                                                                                                                                                                          |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| version              | <p>string<br>example: 1.0.0</p><p>Version of the Data Model Definition</p>                                                                                                                           |
+| id                   | <p>string<br>example: 51c9c03c-1607-4dd5-9e0e-93bbf860f6f7</p><p>System generated UUID of Line Item</p>                                                                                              |
+| eventId              | <p>string<br>example: fecbbf1d-d6e3-4f24-9935-02c33b9248e0</p><p>Fiscal Event Reference Id</p>                                                                                                       |
+| tenantId             | <p>string<br>nullable: false<br>example: pb</p><p>Tenant Id</p>                                                                                                                                      |
+| government.id        | <p>string<br>example: pb</p>                                                                                                                                                                         |
+| government.name      | <p>string<br>example: Punjab</p>                                                                                                                                                                     |
+| department.id        | <p>string<br>example: 5d664a9f-9367-458a-aa5f-07fb18b90adc</p><p>Unique system generated UUID</p>                                                                                                    |
+| department.code      | <p>string<br>example: DWSS</p><p>Unique department code</p>                                                                                                                                          |
+| department.name      | <p>string<br>example: Department of Water Supply &#x26; Sanitation</p><p>Name of the department</p>                                                                                                  |
+| expenditure.id       | <p>string<br>example: d334d99a-b5c1-426c-942b-f11b5b5454fe</p><p>Unique system generated UUID</p>                                                                                                    |
+| expenditure.code     | <p>string<br>example: JJM</p><p>Unique Expenditure code</p>                                                                                                                                          |
+| expenditure.name     | <p>string<br>example: Jal Jeevan Mission</p><p>Name of the Expenditure</p>                                                                                                                           |
+| expenditure.type     | <p>string</p><p>Type of the Expenditure Enum:<br>Array [ 2 ]</p>                                                                                                                                     |
+| project.id           | <p>string<br>example: 6ab1b1d2-e224-46fa-b53b-ac83b3c7ce95</p><p>Unique system generated UUID</p>                                                                                                    |
+| project.code         | <p>string<br>example: PWT</p><p>Unique Project code</p>                                                                                                                                              |
+| project.name         | <p>string<br>example: Peepli Water Tank</p><p>Name of the Project</p>                                                                                                                                |
+| eventType            | <p>string<br>nullable: false<br>example: Appropriation</p><p>Captures the event type e.g Demand, Receipt, Bill, Payment </p>                                                                         |
+| eventTime            | <p>integer($int64)<br>example: 1628177497000</p><p>when the event occurred at source system level</p>                                                                                                |
+| referenceId          | <p>string<br>example: 013e9c56-8207-4dac-9f4d-f1e20bd824e7</p><p>reference unique id(transaction id) of the caller system</p>                                                                        |
+| parentEventId        | <p>string<br>nullable: true<br>example: 7d476bb0-bc9f-48e2-8ad4-5a4a36220779</p><p>If this is a follow up event then it will refer to the parent event using this reference id.</p>                  |
+| parentReferenceId    | <p>string<br>nullable: true<br>example: 77f23efe-879d-407b-8f23-7b8dd5b2ecb1</p><p>If this is a follow up event then it will refer to the parent event in source system using this reference id.</p> |
+| amount               | <p>number<br>example: 10234.5</p><p>Transaction Amount</p>                                                                                                                                           |
+| coa.id               | <p>string<br>example: e9f940d4-69aa-4bbb-aa82-111b8948a6b6</p><p>Unique system generated UUID</p>                                                                                                    |
+| coa.coaCode          | <p>string<br>example: 1234-123-123-12-12-12</p><p>Chart of account concatenated string</p>                                                                                                           |
+| coa.majorHead        | <p>string<br>example: 1234</p><p>Major head code</p>                                                                                                                                                 |
+| coa.majorHeadName    | <p>string</p><p>Major head name</p>                                                                                                                                                                  |
+| coa.majorHeadType    | <p>string<br>example: Revenue</p><p>Major head code type</p>                                                                                                                                         |
+| coa.subMajorHead     | <p>string<br>example: 123</p><p>Sub-Major head code</p>                                                                                                                                              |
+| coa.subMajorHeadName | <p>string</p><p>Sub-Major head name</p>                                                                                                                                                              |
+| coa.minorHead        | <p>string<br>example: 123</p><p>Minor head code</p>                                                                                                                                                  |
+| coa.minorHeadName    | <p>string</p><p>Minor head name</p>                                                                                                                                                                  |
+| coa.subHead          | <p>string<br>example: 12</p><p>Sub-Head code</p>                                                                                                                                                     |
+| coa.subHeadName      | <p>string</p><p>Sub-Head name</p>                                                                                                                                                                    |
+| coa.groupHead        | <p>string<br>example: 12</p><p>Group head code</p>                                                                                                                                                   |
+| coa.groupHeadName    | <p>string</p><p>Group head name</p>                                                                                                                                                                  |
+| coa.objectHead       | <p>string<br>example: 12</p><p>Object head code</p>                                                                                                                                                  |
+| coa.objectHeadName   | <p>string</p><p>Object head name</p>                                                                                                                                                                 |
+| fromBillingPeriod    | <p>integer($int64)<br>example: 1622907239000</p><p>Start date of the billing period for which transaction is applicable</p>                                                                          |
+| toBillingPeriod      | <p>integer($int64)<br>example: 1628177643000</p><p>Start date of the billing period for which transaction is applicable</p>                                                                          |
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

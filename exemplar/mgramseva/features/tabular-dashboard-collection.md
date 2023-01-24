@@ -1,0 +1,15 @@
+# Tabular Dashboard - Collection
+
+Clicking on the Dashboard on the home screen navigates the user to the revenue dashboard view for the current month. This provides a tabular view with the list of consumer records.
+
+Following are the data points/actions needed on the screen
+
+|     |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Search Consumer records | <ul><li>Search by name or connection ID</li><li>Name should be a partial match. As the user starts typing a consumer name, respective consumers get filtered in the table displayed below</li><li>Connection ID should be a partial match. This is the new connection ID. As the user starts typing a New connection ID, respective consumers get filtered in the table displayed below</li></ul>                                                                               |
+| 1.1 | Filters                 | <ul><li>Default is “All” View. Switching to Residential or commercial filters table accordingly. Alongside the filter, how many consumers fall into that filter is shown in numbers</li><li>The table also has sort options for each column (ascending, descending)</li></ul>                                                                                                                                                                                                   |
+| 1.2 | Columns                 | <ul><li><p>Connection ID</p><ul><li>New Connection ID of the consumer- this should be clickable, and take users to the HH details page</li><li>A metered connection should have “M” in a ⭕️ that is followed across as standard for metered connection</li></ul></li><li><p>Name</p><ul><li>name of the consumer. Show until 20 Characters and truncate by showing 3 dots if the name is longer</li></ul></li><li>Collections - Amount paid by the user in that month</li></ul> |
+
+![](../../../.gitbook/assets/image-20210802-100536.png)
+
+> [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

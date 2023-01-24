@@ -1,0 +1,411 @@
+openapi: 3.0.0
+info:
+  title: iFIX-Fiscal-Event
+  description: ''
+  version: 2.0.0
+servers:
+  - url: https://<server_address>/fiscal-event-service
+paths:
+  /fiscal/events/v1/_publish:
+    post:
+      tags:
+        - Fiscal Events
+      summary: Create(publish) new fiscal event on iFix
+      description: Create the new fiscal event
+      requestBody:
+        description: Details for the new fiscal event + RequestHeader (meta data of the API).
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FiscalEventRequest'
+        required: true
+      responses:
+        '202':
+          description: Event published successfully
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/FiscalEventResponse'
+        '400':
+          description: Failed to process the request
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /fiscal/events/v1/_search:
+    post:
+      tags:
+        - Fiscal Events
+      summary: Get the list fiscal events.
+      description: Based on the criteria get the list of events.
+      requestBody:
+        description: RequestHeader meta data.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FiscalEventGetRequest'
+        required: true
+      responses:
+        '200':
+          description: Successful response
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/FiscalEventResponse'
+        '400':
+          description: Invalid input.
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components:
+  schemas:
+    FiscalEvent:
+      required:
+        - amountDetails
+        - eventType
+        - referenceId
+        - tenantId
+        - transactionTime
+      type: object
+      properties:
+        id:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: System generated UUID.
+          readOnly: true
+          example: fecbbf1d-d6e3-4f24-9935-02c33b9248e0
+        tenantId:
+          maxLength: 256
+          minLength: 2
+          type: string
+          description: Tenant Id
+          nullable: false
+          example: pb
+        sender:
+          maxLength: 256
+          minLength: 2
+          type: string
+          description: Client id of the registered source system(Get the client id from the request header)
+          readOnly: true
+        receivers:
+          type: array
+          description: Client ids of the registered data receivers system
+          items:
+            maxItems: 100
+            type: string
+        eventType:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: Captures the event type (eg- 1.a. DEMAND, 1.b. BILL, 2.a. RECEIPT, 2.b. PAYMENT, 2.c. INTER_TRANSFER, 2.d. INTRA_TRANSFER, 3.a. SANCTION, 3.b. APPROPRIATION, 3.c. ALLOCATION)
+          nullable: false
+          example: Appropriation
+        eventTime:
+          type: integer
+          description: when the event occured at source system level
+          format: int64
+          example: 1628177497000
+        ingestionTime:
+          type: integer
+          description: when the event arrived in ifix
+          format: int64
+          nullable: false
+          readOnly: true
+          example: 1628177497000
+        referenceId:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: reference unique id(transaction id) of the caller system
+          example: 013e9c56-8207-4dac-9f4d-f1e20bd824e7
+        linkedEventId:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: If this is a follow up event then it will refer to the parent event using this reference id.
+          nullable: true
+          example: 7d476bb0-bc9f-48e2-8ad4-5a4a36220779
+        linkedReferenceId:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: If this is a follow up event then it will refer to the parent event in source system using this reference id.
+          nullable: true
+          example: 77f23efe-879d-407b-8f23-7b8dd5b2ecb1
+        amountDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/Amount'
+        location:
+          $ref: '#/components/schemas/Location'
+        auditDetails:
+          $ref: '#/components/schemas/AuditDetails'
+        attributes:
+          type: object
+          description: Capture the extra information as a json
+      description: The object captures the fiscal information of external systems.
+    Location:
+      type: object
+      properties:
+        code:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: location code
+        hierarchyType:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: location hierarchy type
+          example: State, District etc
+        name:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: location name
+        child:
+          $ref: '#/components/schemas/Location'
+      description: Capture the location where fiscal event happened. This object represent geographical hierarchy
+    Amount:
+      required:
+        - amount
+        - coaCode
+      type: object
+      properties:
+        id:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: System generated UUID
+          readOnly: true
+          example: 51c9c03c-1607-4dd5-9e0e-93bbf860f6f7
+        amount:
+          type: number
+          description: Transaction Amount
+          example: 10234.5
+        coaCode:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: Chart of account code. Publish request should contain coaCode, but search response will not contain it.
+          example: 1234-123-123-12-12-12
+        coaId:
+          type: string
+          description: Unique system generated Chart of Account UUID
+          readOnly: true
+          example: e9f940d4-69aa-4bbb-aa82-111b8948a6b6
+        fromBillingPeriod:
+          type: integer
+          description: Start date of the billing period for which transaction is applicable
+          format: int64
+          example: 1622907239000
+        toBillingPeriod:
+          type: integer
+          description: Start date of the billing period for which transaction is applicable
+          format: int64
+          example: 1628177643000
+      description: Capture the transaction amount and chart of account corresponding to the transaction amount
+    Criteria:
+      required:
+        - eventType
+        - tenantId
+      type: object
+      properties:
+        Ids:
+          type: array
+          description: List of event ids
+          items:
+            maxItems: 100
+            type: string
+        tenantId:
+          maxLength: 256
+          minLength: 2
+          type: string
+          description: Tenant Id
+          nullable: false
+        eventType:
+          maxLength: 64
+          minLength: 1
+          type: string
+          description: Captures the event type(eg- bill, receipt, expenditure)
+          nullable: false
+        fromEventTime:
+          type: integer
+          description: Search events b/w transaction time(Start date)
+          format: int64
+        toEventTime:
+          type: integer
+          description: Search events b/w transaction time(End date)
+          format: int64
+        referenceId:
+          type: array
+          items:
+            maxItems: 100
+            type: string
+      description: The object contains all the search criteria of the fiscal events
+    FiscalEventRequest:
+      required:
+        - fiscalInfo
+        - requestHeader
+      properties:
+        requestHeader:
+          $ref: '#/components/schemas/RequestHeader'
+        fiscalEvent:
+          type: array
+          items:
+            $ref: '#/components/schemas/FiscalEvent'
+      description: Fiscal event request along with request metadata
+    FiscalEventGetRequest:
+      required:
+        - fiscalInfo
+        - requestHeader
+      properties:
+        requestHeader:
+          $ref: '#/components/schemas/RequestHeader'
+        criteria:
+          $ref: '#/components/schemas/Criteria'
+      description: Fiscal event request along with request metadata
+    FiscalEventResponse:
+      properties:
+        responseHeader:
+          $ref: '#/components/schemas/ResponseHeader'
+        fiscalEvent:
+          type: array
+          items:
+            $ref: '#/components/schemas/FiscalEvent'
+      description: Contains the ResponseHeader and the enriched fiscal information
+    ErrorResponse:
+      required:
+        - ResponseHeader
+      type: object
+      properties:
+        ResponseHeader:
+          $ref: '#/components/schemas/ResponseHeader'
+        Errors:
+          minLength: 1
+          type: array
+          description: Error response array to return multiple error for single request
+          items:
+            $ref: '#/components/schemas/Error'
+      description: All APIs will return ErrorRes in case of failure which will carry ResponseHeader as metadata and Error object as actual representation of error.
+    ResponseHeader:
+      type: object
+      properties:
+        ts:
+          type: integer
+          description: response time in epoch
+          format: int64
+        correlationId:
+          maxLength: 256
+          type: string
+          description: unique response message id (UUID) - will usually be the correlation id from the server
+        msgId:
+          maxLength: 256
+          type: string
+          description: message id of the request
+        status:
+          type: string
+          description: status of request processing
+          enum:
+            - SUCCESS
+            - FAILED
+        signature:
+          type: string
+          description: Hash describing the current Request
+        version:
+          maxLength: 64
+          minLength: 2
+          type: string
+          description: The version of the API
+          nullable: false
+      description: ResponseHeader should be used to carry metadata information about the response from the server. apiId, ver and msgId in ResponseHeader should always correspond to the same values in respective request's RequestHeader.
+      readOnly: true
+    Error:
+      required:
+        - code
+        - description
+        - message
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error Code will be service specific error label/code to identiffy the error. Example for error code would be User.NotFound to indicate User Not Found by User/Authentication service. All services must declare their possible Error Codes with brief description in the error response section of their API path.
+        message:
+          type: string
+          description: Human readable error message
+        description:
+          type: string
+          description: technical description of the error which can help developer to debug the error if error is unexpected.
+      description: Error object will be returned as a part of reponse body in conjunction with ResponseHeader as part of ErrorResponse whenever the request processing status in the ResponseHeader is FAILED. HTTP return in this scenario will usually be HTTP 400.
+    AuditDetails:
+      type: object
+      properties:
+        createdBy:
+          type: string
+          description: UUID (preferred) or userid of the user that created the object
+          readOnly: true
+        lastModifiedBy:
+          type: string
+          description: UUID (preferred) or userid of the user that last modified the object
+          readOnly: true
+        createdTime:
+          type: integer
+          description: epoch of the time object is created
+          format: int64
+          readOnly: true
+        lastModifiedTime:
+          type: integer
+          description: epoch of the time object is last modified
+          format: int64
+          readOnly: true
+      description: Collection of audit related fields used by most models
+      readOnly: true
+    RequestHeader:
+      type: object
+      properties:
+        ts:
+          type: integer
+          description: time in epoch
+          format: int64
+          nullable: false
+        version:
+          maxLength: 64
+          minLength: 2
+          type: string
+          description: The version of the API
+          nullable: false
+        msgId:
+          maxLength: 256
+          type: string
+          description: Unique request message id from the caller
+        userInfo:
+          $ref: '#/components/schemas/UserInfo'
+        correlationId:
+          type: string
+          readOnly: true
+        signature:
+          type: string
+          description: Hash describing the current RequestHeader
+      description: RequestHeader should be used to carry meta information about the requests to the server as described in the fields below. All eGov APIs will use requestHeader as a part of the request body to carry this meta information. Some of this information will be returned back from the server as part of the ResponseHeader in the response body to ensure correlation.
+    UserInfo:
+      type: object
+      properties:
+        uuid:
+          type: string
+          description: System Generated User id of the authenticated user.
+        roles:
+          type: array
+          description: List of roles assigned to a user
+          items:
+            type: string
+        tenants:
+          type: array
+          description: List of tenants assigned to a user
+          items:
+            type: string
+        attributes:
+          type: object
+      description: Capture the user information
+      readOnly: true
