@@ -20,21 +20,21 @@ As government service delivery requires multiple actors and interactions to come
 
 Public finance management faces significant challenges in terms of promoting accountability and transparency. The problem is more on account of siloed information structures that restrict the scope to get a broader view of the flow of funds or data across agencies and stakeholders.&#x20;
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The flow of information is both slow and limited, resulting in a number of gaps and breaks in the PFM processes. This is essentially attributed to the lack of information standards and exchange mechanisms that make it difficult for the seamless flow of data across agencies.
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 iFIX allows departments to share fiscal information from existing systems without having to invest in multiple integrations for different stakeholder requirements. The platform plays a pivotal role in driving efficient and performance-driven financial planning across all levels of governance. Real-time availability of financial information to stakeholders facilitates data-driven deployment of public funds and policy-making. The platform specification sets the base for the real-time exchange of fiscal information across funding and implementing agencies.
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ### Platform Scope
 
 The iFIX platform identifies and resolves Public Financial Management issues like delays in funds flow, floating of unutilised funds, problems of low data fidelity,  the administrative burden of implementation and outcome-oriented funding using the platform approach and associated policy reforms.&#x20;
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 The platform helps achieve overall fiscal discipline, allocation of resources to priority needs, efficient and effective allocation of public services. Public financial management includes all phases of the budget cycle, including the preparation of the budget, internal control and audit, procurement, monitoring and reporting arrangements, and external audit.&#x20;
 

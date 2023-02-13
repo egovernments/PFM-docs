@@ -35,7 +35,7 @@ The consumer can be searched on the following parameters -
 
 ## **Search Result**
 
-![](<../../../.gitbook/assets/image (26) (1).png>)
+![](<../../../.gitbook/assets/image (26).png>)
 
 The search result set contains below information -
 

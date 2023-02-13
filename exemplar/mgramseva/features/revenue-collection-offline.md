@@ -38,7 +38,7 @@ Details on the card
 
 ![](<../../../.gitbook/assets/image (50).png>)
 
-![](<../../../.gitbook/assets/image (20) (1).png>)
+![](<../../../.gitbook/assets/image (20).png>)
 
 1. When online is selected for payment method, the “Collect Payment” option is disabled. Since HH scans the QR, the Revenue collector does not have control over the online process.
 2. A partial amount can’t be greater than the full amount.

@@ -12,7 +12,7 @@ The iFIX platform architecture and the interacting systems are divided into 3 pa
 2. External Agency Systems
 3. Common Reference Data
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 ### iFIX Platform
 

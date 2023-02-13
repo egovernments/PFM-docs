@@ -47,16 +47,17 @@ With this, we will be performing migration from MongoDB to both, PostgreSQL and 
 
 1. First, deploy the latest image of the fiscal-event-service
    1. (So that the tables get created in PostgreSQL.)
-2.  Deploy plain search docker image of fiscal-event-service:
+2. Follow the instructions mentioned in the ifix-es-pipeline project's README to setup the ES mapping before performing the migration.&#x20;
+3.  Deploy plain search docker image of fiscal-event-service:
 
     ```
     egovio/fiscal-event-service-db:mongodb-plainsearch-1bca621-7
     ```
-3. Deploy the latest image of ifix-es-pipeline
-4. Ensure [fiscal-events-persister](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-persister/fiscal-events-persister.yml) is configured in egov-persister
-5. Ensure [ifix-fiscal-event-indexer](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-indexer/ifix-fiscal-event-indexer.yml) is configured in egov-indexer
-6. (Ensure [ifix-migration-progress](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-persister/ifix-migration-progress.yml) is configured in egov-persister to record the progress of the migration. In case of any failures during migration, with this, it will resume the migration from where it left off. )
-7.  Hit the Fiscal Event migrate endpoint of the migration-toolkit
+4. Deploy the latest image of ifix-es-pipeline
+5. Ensure [fiscal-events-persister](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-persister/fiscal-events-persister.yml) is configured in egov-persister
+6. Ensure [ifix-fiscal-event-indexer](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-indexer/ifix-fiscal-event-indexer.yml) is configured in egov-indexer
+7. (Ensure [ifix-migration-progress](https://github.com/egovernments/config-mgramseva/blob/ifix-qa/egov-persister/ifix-migration-progress.yml) is configured in egov-persister to record the progress of the migration. In case of any failures during migration, with this, it will resume the migration from where it left off. )
+8.  Hit the Fiscal Event migrate endpoint of the migration-toolkit
 
     ```
     /ifix-migration-toolkit/fiscal_event/v1/_migrate

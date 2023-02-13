@@ -20,7 +20,7 @@ However, this is not a blog about horses, manure and automobiles. This is about 
 
 Public Finance Management drives government and all development programs, be it through the development of public infrastructure, delivery of public services or direct benefits transfers. It does this by making the right amount of money available from various funding sources/agencies to the implementing agencies at the right time - in a fiscally sustainable and responsible manner. In order to do so, funding agencies need information from the implementation agencies on how the money is being spent. So, each flow of money from funding agencies is correlated with the flow of information from implementing agencies in the reverse direction.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 Development programs are funded by various stakeholders - national governments, sub national governments, local governments, development bodies and various multi-lateral agencies. At a global scale, multi-laterals and bi-laterals fund a variety of development programs across countries. There are thousands of funding and implementing agencies across the world. Money and information needs to flow between agencies seamlessly for accelerated development - especially if we need to meet the sustainable development goals which has been set back due to the recent COVID pandemic and ongoing war.
 

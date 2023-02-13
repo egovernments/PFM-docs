@@ -2,7 +2,7 @@
 
 ![Non Metered Bill](<../../../.gitbook/assets/image (37).png>)
 
-![Metered Bill](<../../../.gitbook/assets/image (22) (1).png>)
+![Metered Bill](<../../../.gitbook/assets/image (22).png>)
 
 Bill and Receipt PDFs can be sent to consumers at multiple touchpoints
 
