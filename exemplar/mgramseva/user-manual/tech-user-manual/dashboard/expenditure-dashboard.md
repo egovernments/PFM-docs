@@ -4,7 +4,7 @@
 
 &#x20;→ {base url}/mgramseva/home/dashboard?tab=1.
 
-![](<../../../../../.gitbook/assets/image (64).png>)
+![](<../../../../../.gitbook/assets/image (92).png>)
 
 Users are redirected to this screen when they select the GPWSC Dashboard option on the home screen.
 

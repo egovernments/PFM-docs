@@ -68,7 +68,7 @@ Deploy the latest version of ifix-reference-adapter
 
 ## Interaction Diagram
 
-![](<../../../.gitbook/assets/image-20210906-060851 (1).png>)
+![](../../.gitbook/assets/image-20210906-060851.png)
 
 
 

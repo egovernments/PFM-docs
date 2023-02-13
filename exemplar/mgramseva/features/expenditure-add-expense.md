@@ -2,7 +2,7 @@
 
 The expense entry for the O\&M on regular basis is captured on this screen.
 
-![](<../../../.gitbook/assets/image (72).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 On selecting the option “Add Expense Record” from the list of tile/cards on the home page, the user is navigated to the expense entry screen. The screen displays the following fields.
 
@@ -22,7 +22,7 @@ On Submitting, the Expense entry gets created with a Bill number assigned. The B
 
 On Successful creation of expense entry, an acknowledgement screen is shown “Expense Entry successful” along with the Bill Number.&#x20;
 
-![](<../../../.gitbook/assets/image (43).png>)
+![](<../../../.gitbook/assets/image (53).png>)
 
 
 

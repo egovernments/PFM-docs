@@ -21,6 +21,6 @@ The scenario above exemplifies some of the pivotal challenges addressed by the r
 3. [iFIX Platform](broken-reference) - stores micro-level fiscal data and provides secure standard APIs for source systems to post and query fiscal data in raw and aggregated form.
 4. [iFIX Dashboard](ifix-dashboard/) - provides a dashboard for the department to have a real-time view of the fiscal sustainability of various projects.
 
-![](<../.gitbook/assets/image (77).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 > [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

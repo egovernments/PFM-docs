@@ -2,13 +2,13 @@
 
 ## [Information Model](./#information-model)
 
-1. [Government](information-model.md#government)
-2. [Department](information-model.md#department)
+1. [Government](../../architecture/standards/information-model.md#government)
+2. [Department](../../architecture/standards/information-model.md#department)
 3. Department Entity (For example, Ropar Water Department)&#x20;
-4. [Chart of Account](information-model.md#chart-of-account)
-5. [Expenditure](information-model.md#expenditure)
-6. [Project](information-model.md#project)
-7. [Fiscal Event](information-model.md#fiscal-event)
+4. [Chart of Account](../../architecture/standards/information-model.md#chart-of-account)
+5. [Expenditure](../../architecture/standards/information-model.md#expenditure)
+6. [Project](../../architecture/standards/information-model.md#project)
+7. [Fiscal Event](../../architecture/standards/information-model.md#fiscal-event)
 
 ## [APIs](./#apis-v-0.1) (v 0.1)
 

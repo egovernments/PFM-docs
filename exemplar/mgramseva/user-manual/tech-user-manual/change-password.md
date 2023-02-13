@@ -4,7 +4,7 @@
 
 → {base url}/mgramseva/home/changepassword.
 
-![](<../../../../.gitbook/assets/image (30).png>)
+![](<../../../../.gitbook/assets/image (60).png>)
 
 Users are redirected to this screen if they click on the Change Password option in the Side Bar app Drawer.![](blob:https://digit-discuss.atlassian.net/ab0d2124-264f-4e7e-825a-6da61e034076#media-blob-url=true\&id=b1d71015-4630-47b9-a673-6bc5b8c40589\&collection=contentId-1925546002\&contextId=1925546002\&mimeType=image%2Fpng\&name=ChangePassword.png\&size=40193\&width=377\&height=813\&alt=)
 

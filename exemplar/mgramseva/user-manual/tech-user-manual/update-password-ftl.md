@@ -4,7 +4,7 @@
 
 → {base url}/mgramseva/selectLanguage/login/`updatepassword`
 
-![](<../../../../.gitbook/assets/image (14).png>)
+![](<../../../../.gitbook/assets/image (75).png>)
 
 Users are redirected to the Update Password screen once they log in successfully the first time.![](blob:https://digit-discuss.atlassian.net/4ebc458f-348a-475e-afe8-88bf15283ee1#media-blob-url=true\&id=a46b0d6c-3c49-44dc-9cfc-aaa7b8106cc3\&collection=contentId-1922662535\&contextId=1922662535\&mimeType=image%2Fpng\&name=Screenshot\_1632119237.png\&size=406069\&width=1440\&height=3040\&alt=)
 

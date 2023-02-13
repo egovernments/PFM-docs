@@ -1,6 +1,6 @@
 # Expenditure - Modify Expense
 
-![](<../../../.gitbook/assets/image (92).png>)
+![](<../../../.gitbook/assets/image (46).png>)
 
 Expense modification is allowed based on the status of the Payment as given in below scenarios -
 

@@ -4,7 +4,7 @@
 
 → {base url}/mgramseva/home/searchExpense
 
-![](<../../../../../.gitbook/assets/image (25).png>)
+![](<../../../../../.gitbook/assets/image (94).png>)
 
 Users are redirected to this screen by selecting the Update Expense card on the home screen.![](blob:https://digit-discuss.atlassian.net/c8e3382f-6264-4770-989f-b8c80f5976f0#media-blob-url=true\&id=7e42a741-9da9-4bfc-879b-2bbafa70c5a7\&collection=contentId-1926791391\&contextId=1926791391\&mimeType=image%2Fpng\&name=Search%20EXpense.png\&size=42495\&width=373\&height=806\&alt=)
 
@@ -23,7 +23,7 @@ Primary Files:
 
 [<img src="https://github.com/fluidicon.png" alt="" data-size="line">punjab-mgramseva/expense\_results.dart at develop · egovernments/punjab-mgramseva](https://github.com/egovernments/punjab-mgramseva/blob/develop/frontend/mgramseva/lib/screeens/expense/expense\_results.dart)
 
-![](<../../../../../.gitbook/assets/image (39).png>)
+![](<../../../../../.gitbook/assets/image (93).png>)
 
 ## **Field Validations**
 

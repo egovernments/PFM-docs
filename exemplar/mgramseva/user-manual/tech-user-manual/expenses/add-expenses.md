@@ -4,7 +4,7 @@
 
 → {base url}/mgramseva/home/addExpense
 
-![](<../../../../../.gitbook/assets/image (2).png>)
+![](<../../../../../.gitbook/assets/image (67).png>)
 
 Enables employees to add expenses - the process of onboarding the end-users.
 
@@ -18,7 +18,7 @@ If a user logs in for the first time then a walkthrough is populated following t
 
 Clicking on the Submit button navigates the user to the Expenditure Added Successful acknowledgement screen.
 
-![](<../../../../../.gitbook/assets/image (66).png>)
+![](<../../../../../.gitbook/assets/image (88).png>)
 
 ## **Logic Implemented for Date Validation and File Attachments**
 

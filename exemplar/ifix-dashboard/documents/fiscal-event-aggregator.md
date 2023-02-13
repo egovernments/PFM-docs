@@ -44,7 +44,7 @@ _Note: Below environment variables need to be configured with respect to the env
 
 ## Interaction Diagram
 
-![](<../../../../.gitbook/assets/image (37).png>)
+![](<../../../.gitbook/assets/image (99).png>)
 
 ## Configuration
 

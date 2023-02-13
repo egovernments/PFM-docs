@@ -6,7 +6,7 @@ Enables employees to create new Consumers or Connections - The process of onboar
 
 → {base url}/mgramseva/home/consumercreate
 
-![](<../../../../../.gitbook/assets/image (5).png>)
+![](<../../../../../.gitbook/assets/image (72).png>)
 
 The Create Consumer card is available on the home screen as per the defined user role.
 
@@ -59,15 +59,15 @@ Water connection creation is of two types:
 
 A metered connection that requires Meter ID and meter installation Date/ Last Meter Reading Date and an optional field to capture meter reading**.**
 
-![](<../../../../../.gitbook/assets/image (103).png>)
+![](<../../../../../.gitbook/assets/image (80).png>)
 
 Non-Metered Connection which requires the last billing cycle as mandatory params captured in the field as shown below.
 
-![](<../../../../../.gitbook/assets/image (12).png>)
+![](<../../../../../.gitbook/assets/image (85).png>)
 
 &#x20;Users can switch between connection types by selecting a desired value from the **Service Type** DropDown.
 
-![](<../../../../../.gitbook/assets/image (19).png>)
+![](<../../../../../.gitbook/assets/image (62).png>)
 
 | **API**                              | **Description**                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

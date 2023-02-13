@@ -60,7 +60,7 @@ Deploy the latest version of the ifix-reference-adapter.
 
 ### Interaction Diagram <a href="#interaction-diagram" id="interaction-diagram"></a>
 
-![](../../../.gitbook/assets/image-20210906-060851.png)
+![](<../../../.gitbook/assets/image-20210906-060851 (1).png>)
 
 ## &#x20;Reference Docs
 

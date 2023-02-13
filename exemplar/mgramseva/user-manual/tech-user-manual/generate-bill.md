@@ -6,7 +6,7 @@
 
 → {base url}/mgramseva/home/billmanualgenerate.
 
-![](<../../../../.gitbook/assets/image (44).png>)
+![](<../../../../.gitbook/assets/image (64).png>)
 
 Users are redirected to this screen if they click on the Generate Demand card on the home screen.
 
@@ -23,7 +23,7 @@ Users are redirected to this screen if they click on the Generate Demand card on
 * Set the Billing cycle which contains billing cycles for the selected financial year.
 * On Click of Generate Demand Button, Bulk Demand is generated and the user is navigated to the success screen.
 
-![](<../../../../.gitbook/assets/image (102).png>)
+![](<../../../../.gitbook/assets/image (98).png>)
 
 ### **Logic Implemented for Billing Cycles**
 
@@ -71,7 +71,7 @@ Widgets Utilised from Library
 
 → {base url}/mgramseva/home/householddetails/billgenerate.
 
-![](<../../../../.gitbook/assets/image (13).png>)
+![](<../../../../.gitbook/assets/image (95).png>)
 
 Users are redirected to the Generate New Bill screen if they click the Generate New Bill option in the household detail screen.
 

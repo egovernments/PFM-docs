@@ -14,7 +14,7 @@ YES → WalkThrough/User Guidance Enabled
 
 NO → Home Screen
 
-![](<../../../../.gitbook/assets/image (38).png>)
+![](<../../../../.gitbook/assets/image (77).png>)
 
 If the user logs in for the first time a system walkthrough begins automatically.
 
@@ -22,7 +22,7 @@ Else, users can view walkthroughs any time by clicking on the help icon.
 
 ### **Logic Implemented for Walkthrough**
 
-![](<../../../../.gitbook/assets/image (96).png>)
+![](<../../../../.gitbook/assets/image (76).png>)
 
 Create a global key for each card.
 
@@ -54,7 +54,7 @@ The home screen also consists of notifications. The notifications are customized
 
 ### **Logic Implemented for Notifications**
 
-![](<../../../../.gitbook/assets/image (41).png>)
+![](<../../../../.gitbook/assets/image (97).png>)
 
 Individual API calls are made with the user ID and with the user role that merges both and notifications are displayed accordingly.
 

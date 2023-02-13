@@ -7,7 +7,7 @@ Consumer information can be edited under certain conditions -
 1. Before the first demand is generated from the system
 2. After the first demand is generated from the system
 
-![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (35).png>)
 
 ## Edit Screen
 

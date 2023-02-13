@@ -8,7 +8,7 @@
 
 &#x20;→ {base url}/mgramseva/home/householdReceiptsSearch?Mode=receipts
 
-![](<../../../../.gitbook/assets/image (46).png>)
+![](<../../../../.gitbook/assets/image (84).png>)
 
 Users are redirected to this screen once they click on the Collect Payment Card or the Update Consumer Details Card or Download Bills and Receipts Card on Home Screen.![](blob:https://digit-discuss.atlassian.net/23527a1c-0ba9-4b83-9c8f-ae1824f6554a#media-blob-url=true\&id=22a4929f-89bc-480a-a918-c5a4e85188ab\&collection=contentId-1925316787\&contextId=1925316787\&mimeType=image%2Fpng\&name=Search%20Connection.png\&size=43384\&width=380\&height=814\&alt=)
 

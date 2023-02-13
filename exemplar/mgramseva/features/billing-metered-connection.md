@@ -24,11 +24,11 @@ A revenue collector can see a CTA to “Generate a new Bill” on the HH details
 
 For Demand Generation Logic refer to [Demand/Bill Generation for metered connection](demand-bill-generation-for-metered-connection.md)
 
-![Bill Generation screen for Metered connections](<../../../.gitbook/assets/image (22).png>)
+![Bill Generation screen for Metered connections](<../../../.gitbook/assets/image (10).png>)
 
 
 
-![ Bill Generation Successful](<../../../.gitbook/assets/image (87).png>)
+![ Bill Generation Successful](<../../../.gitbook/assets/image (29).png>)
 
 1. All 5 Digits in the meter reading has to be entered. Show error message “ Old Meter Reading entered is Invalid”, “ New Meter Reading entered is invalid” respectively.
 2. The New Meter reading should be greater than the Old Meter Reading.

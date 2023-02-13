@@ -33,11 +33,11 @@ Before you proceed with the documentation, make sure the following pre-requisite
 
 ## Interaction Diagram
 
-![](<../../../../.gitbook/assets/W\&S service Add new connection-20210914-131404.png>)
+![](../../../../.gitbook/assets/w-and-s-service-add-new-connection-20210914-131404.png)
 
 **Table UML Diagram**
 
-![](<../../../../.gitbook/assets/Screenshot from 2020-07-15 12-50-16 (1).png>)
+![](../../../../.gitbook/assets/screenshot-from-2020-07-15-12-50-16-1-.png)
 
 ### Configuration Details <a href="#configuration-details" id="configuration-details"></a>
 

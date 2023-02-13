@@ -1,6 +1,6 @@
 ---
 description: Fiscal Information Exchange Platform
-cover: .gitbook/assets/PFM docs banner (1).jpg
+cover: .gitbook/assets/PFM docs banner.jpg
 coverY: 0
 ---
 
@@ -20,21 +20,21 @@ As government service delivery requires multiple actors and interactions to come
 
 Public finance management faces significant challenges in terms of promoting accountability and transparency. The problem is more on account of siloed information structures that restrict the scope to get a broader view of the flow of funds or data across agencies and stakeholders.&#x20;
 
-<figure><img src=".gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 The flow of information is both slow and limited, resulting in a number of gaps and breaks in the PFM processes. This is essentially attributed to the lack of information standards and exchange mechanisms that make it difficult for the seamless flow of data across agencies.
 
-<figure><img src=".gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 iFIX allows departments to share fiscal information from existing systems without having to invest in multiple integrations for different stakeholder requirements. The platform plays a pivotal role in driving efficient and performance-driven financial planning across all levels of governance. Real-time availability of financial information to stakeholders facilitates data-driven deployment of public funds and policy-making. The platform specification sets the base for the real-time exchange of fiscal information across funding and implementing agencies.
 
-<figure><img src=".gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### Platform Scope
 
 The iFIX platform identifies and resolves Public Financial Management issues like delays in funds flow, floating of unutilised funds, problems of low data fidelity,  the administrative burden of implementation and outcome-oriented funding using the platform approach and associated policy reforms.&#x20;
 
-<figure><img src=".gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 The platform helps achieve overall fiscal discipline, allocation of resources to priority needs, efficient and effective allocation of public services. Public financial management includes all phases of the budget cycle, including the preparation of the budget, internal control and audit, procurement, monitoring and reporting arrangements, and external audit.&#x20;
 
@@ -65,7 +65,7 @@ The standardised fiscal event and exchange mechanism enable various government a
 
 iFIX offers a platform that standardises fiscal event data and the capabilities to exchange information across multiple sources. The platform is built as a digital public good and is open source with minimal specifications. The design incorporates the security and privacy of all data and users and ensures performance at scale.
 
-<figure><img src=".gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Data standards streamline the flow of information paving the way for timely exchange and cost-effective means of managing fiscal events. The iFIX platform establishes the standards and specifications for fiscal event data that make it easier to exchange fiscal information between funding and implementing agencies. Event data is captured in real-time and at the micro level which ensures there is no intentional or unintentional data loss. Any transaction triggers a fiscal event that is accessible to integrated agencies for necessary approvals.&#x20;
 

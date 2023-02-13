@@ -6,7 +6,7 @@
 
 User will be Landed/ Navigated to Language Selection Screen
 
-![](<../../../../.gitbook/assets/image (26).png>)
+![](<../../../../.gitbook/assets/image (86).png>)
 
 APP → Initial Screen
 

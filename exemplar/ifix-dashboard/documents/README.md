@@ -2,8 +2,8 @@
 
 Reference Dashboard
 
-{% content-ref url="ifix-reference-dashboard/fiscal-event-aggregator.md" %}
-[fiscal-event-aggregator.md](ifix-reference-dashboard/fiscal-event-aggregator.md)
+{% content-ref url="fiscal-event-aggregator.md" %}
+[fiscal-event-aggregator.md](fiscal-event-aggregator.md)
 {% endcontent-ref %}
 
 

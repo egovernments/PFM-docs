@@ -8,7 +8,7 @@ The search screen is used to filter the list of consumers based on selected crit
 2. Download bills and receipts
 3. Update consumer information
 
-![Search Consumer](<../../../.gitbook/assets/image (21).png>)
+![Search Consumer](<../../../.gitbook/assets/image (52).png>)
 
 ## Search Parameters
 
@@ -25,7 +25,7 @@ The consumer can be searched on the following parameters -
 3. **Old Connection id** - Allows search of consumer records that matches the old Connection id entered in the search bar.
 4. **New Connection id** - Allows search of consumer records that matches the New Connection id entered in the search bar.
 
-![Search Consumer Expanded](<../../../.gitbook/assets/image (56).png>)
+![Search Consumer Expanded](<../../../.gitbook/assets/image (11).png>)
 
 {% hint style="info" %}
 * As the user starts entering one field, other fields are made non-editable. When the user removes text/numbers entered in the field, other fields are made accessible.
@@ -35,7 +35,7 @@ The consumer can be searched on the following parameters -
 
 ## **Search Result**
 
-![](<../../../.gitbook/assets/image (104).png>)
+![](<../../../.gitbook/assets/image (26) (1).png>)
 
 The search result set contains below information -
 

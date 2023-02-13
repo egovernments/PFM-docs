@@ -27,7 +27,7 @@ If you don't have an [Azure subscription](https://docs.microsoft.com/en-us/azure
 
 Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. (AKS, Worker Nodes, Postgres DB, Volumes, Load Balancer)&#x20;
 
-![](<../../../.gitbook/assets/image (90).png>)
+![](<../../../.gitbook/assets/image (16).png>)
 
 ### AKS Architecture For iFIX Setup
 

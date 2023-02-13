@@ -4,7 +4,7 @@
 
 The household masters need to be created in the system to initiate the demand generation and collection process. These are consumers also referred to as the household that will be issued the water connection and supplied on regular basis.
 
-![Non Metered Connection](<../../../.gitbook/assets/image (6).png>)
+![Non Metered Connection](<../../../.gitbook/assets/image (19).png>)
 
 On selecting the option Create consumer from the list of tile/cards on the home page, the user is navigated to the Create Consumer page.&#x20;
 

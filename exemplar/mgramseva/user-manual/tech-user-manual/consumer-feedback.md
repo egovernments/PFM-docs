@@ -8,7 +8,7 @@ It's an Open URL. It doesn’t require any Authentication user.
 
 → {baseURL}mgramseva/feedBack?paymentId={}\&connectionno={}\&tenantId={}![](blob:https://digit-discuss.atlassian.net/8d02670d-c0a7-4e16-a897-1e4fb97260de#media-blob-url=true\&id=b0c402cc-47b7-45ca-9b7e-e2e44a41707f\&collection=contentId-1930526721\&contextId=1930526721\&mimeType=image%2Fpng\&name=Screenshot%202021-09-21%20at%2010.50.52%20AM.png\&size=46317\&width=340\&height=607\&alt=)
 
-![](<../../../../.gitbook/assets/image (80).png>)
+![](<../../../../.gitbook/assets/image (68).png>)
 
 User can able to switch to multiple Languages
 

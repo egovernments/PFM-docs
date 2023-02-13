@@ -54,11 +54,11 @@ Static HH card which displays the following details
 
 
 
-![New Connection Before First Bill Generation](<../../../.gitbook/assets/image (24).png>)
+![New Connection Before First Bill Generation](<../../../.gitbook/assets/image (49).png>)
 
-![First bill is generated   Payment Collection is pending](<../../../.gitbook/assets/image (18).png>)
+![First bill is generated   Payment Collection is pending](<../../../.gitbook/assets/image (43).png>)
 
-![2 payments are already made](<../../../.gitbook/assets/image (27).png>)
+![2 payments are already made](<../../../.gitbook/assets/image (40).png>)
 
 ## **For Metered Connection**
 
@@ -105,10 +105,10 @@ Static HH card which displays the following details
             1. Message to go in WhatsApp “ Please find receipt for water charges with Connection ID WS-83121-8312 paid on dd/mm/yyyy” along with receipt PDF.
    6. If a new bill is generated again by clicking on ‘Generate a new bill’ revenue collector goes through bill generation flow and a new single card appears between ‘Generate bill’ and ‘Consumer receipts block’
 
-![](<../../../.gitbook/assets/image (83).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (52).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
-![](<../../../.gitbook/assets/image (107).png>)
+![](<../../../.gitbook/assets/image (23).png>)
 
 > [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._

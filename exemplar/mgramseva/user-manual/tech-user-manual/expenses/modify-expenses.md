@@ -6,7 +6,7 @@
 
 Enables employees to modify/edit the expenses based on the status of the payment.
 
-![](<../../../../../.gitbook/assets/image (1).png>)
+![](<../../../../../.gitbook/assets/image (74).png>)
 
 Update Expenses card is visible on the home screen for defined user roles that have EXPENSE PROCESSING permission.
 
@@ -26,7 +26,7 @@ Allows modification of all the details except the Bill Id. Users can Mark the Bi
 
 Cannot modify any details. But the users can Mark the Bill as “Cancelled” by checking the option.
 
-![](<../../../../../.gitbook/assets/image (32).png>)
+![](<../../../../../.gitbook/assets/image (81).png>)
 
 ## File Path
 

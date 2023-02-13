@@ -2,7 +2,7 @@
 
 Users can walk through the application for a better understanding of different user actions available on key screens.&#x20;
 
-![](<../../../.gitbook/assets/image (95).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 
 

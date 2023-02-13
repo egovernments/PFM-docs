@@ -2,7 +2,7 @@
 
 Clicking on the Dashboard on the home screen takes the user directly to the revenue dashboard of the current month. From here, the user can switch to the expenditure tab to get a view of expenses. This provides a tabular view of all expenses incurred in that month.
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](<../../../.gitbook/assets/image (13).png>)
 
 Following are the data points/actions needed on the screen
 
