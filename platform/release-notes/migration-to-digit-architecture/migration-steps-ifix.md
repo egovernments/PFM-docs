@@ -1,6 +1,6 @@
 # Migration Steps - iFIX
 
-1. Deploy `ifix-migration-toolkit-db:develop-2557812-9` to `ifix` environment
+1. Deploy `ifix-migration-toolkit-db:develop-b7a2050-13` to `ifix` environment
 2. Port forward to the ifix-migration-toolkit pod
 
 #### Instruction

@@ -6,7 +6,7 @@ With the iFIX v2.3-alpha update, some of the DIGIT core services also need to be
 | ------------------------- | --------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **IFIX Domain Services**  | IFIX Master Data Service    | <pre data-overflow="wrap"><code>ifix-master-data-service-db:develop-b3f4ff0-3
 </code></pre> | <ul><li>Removed government master from the service</li><li>Migrated chart of account from MongoDB to PostgreSQL</li></ul> |
-|                           | Fiscal Event Service        | <pre data-overflow="wrap"><code>fiscal-event-service-db:develop-21b49cb-5
+|                           | Fiscal Event Service        | <pre data-overflow="wrap"><code>fiscal-event-service-db:develop-4c14ba4-8
 </code></pre>     | <ul><li>Move to DIGIT architecture</li></ul>                                                                              |
 |                           | IFIX ES Pipeline            | <pre data-overflow="wrap"><code>ifix-es-pipeline:develop-2dc38e9-4
 </code></pre>            | <ul><li>New kafka stream pipeline to transform data that will be stored in ES. </li></ul>                                 |
