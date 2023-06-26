@@ -16,7 +16,7 @@ A revenue collector can see a CTA to “Generate a new Bill” on the HH details
 
     Text “ Dear \<ConsumerName>, Please find water bill for billing cycle \<Cycle> attached as PDF”
 
-| **Input Metric**       | ****                                                                                              | Comments                                                                                                               |
+| **Input Metric**       |                                                                                                   | Comments                                                                                                               |
 | ---------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Previous Meter reading | Only for first-time bill generation                                                               |                                                                                                                        |
 | New meter reading      | For the first time and all consecutive bill generations                                           | Previous meter reading units and previous meter reading dates will be taken from the last bill for new bill generation |

@@ -28,9 +28,13 @@ Other master data can be copied.
     * Sample Command to copy the file:\
       `kubectl cp mongo_migration.sh ifix/<playground pod>:/`
 
-    ``
 
-![](<../../../.gitbook/assets/2 (1).jpg>)
+
+<div align="left">
+
+<img src="../../../.gitbook/assets/2 (1).jpg" alt="">
+
+</div>
 
 ## Migration Instructions <a href="#migration-instructions" id="migration-instructions"></a>
 

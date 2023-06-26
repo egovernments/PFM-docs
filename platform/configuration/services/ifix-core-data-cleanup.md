@@ -11,7 +11,7 @@ This page provides details on the steps involved in cleaning up the iFIX core da
 ## **Druid Data Clean-up**
 
 * Open the druid console in the respective environment.
-* Go to _**Ingestion** _ → _**Supervisors**_. And select the particular supervisor (_**fiscal-event**_)
+* Go to _**Ingestion**_ → _**Supervisors**_. And select the particular supervisor (_**fiscal-event**_)
   1. In _**Action**_, click on _**Terminate**._ This terminates the supervisor. Wait for a minute.
 * Go to _**DataSources**_ and select the particular data source name (_**fiscal-event**_). And scroll down to _Action._
   1. Click on the _**Mark as unused all segments** → **Mark as unused all segments**._

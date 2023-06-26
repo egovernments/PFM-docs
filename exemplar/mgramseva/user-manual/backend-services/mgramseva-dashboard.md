@@ -120,7 +120,7 @@ It includes all the Visualizations, their groups, the charts which comes within 
     }
 ```
 
-[Click here to check the complete configuration](https://github.com/misdwss/config-mgramseva/blob/QA/egov-dss-dashboards/dashboard-analytics/MasterDashboardConfig.json)****
+[Click here to check the complete configuration](https://github.com/misdwss/config-mgramseva/blob/QA/egov-dss-dashboards/dashboard-analytics/MasterDashboardConfig.json)
 
 ### **Role Dashboard Mappings Configuration**
 

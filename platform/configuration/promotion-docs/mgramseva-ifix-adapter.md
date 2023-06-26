@@ -34,7 +34,7 @@ The mGramSeva iFIX Adapter receives multiple event requests from the mGramSeva s
 
         `keys * (check all keys)`
 
-        _****_
+
 
     _**Note:** Make sure all client codes, which have been mentioned in the "ifix\_adapter\_coa\_map" table, are listed in the redis "DEL" command list and recheck those are removed using "keys \*" command._&#x20;
 

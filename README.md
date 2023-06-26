@@ -20,7 +20,7 @@ As government service delivery requires multiple actors and interactions to come
 
 Public finance management faces significant challenges in terms of promoting accountability and transparency. The problem is more on account of siloed information structures that restrict the scope to get a broader view of the flow of funds or data across agencies and stakeholders.&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 The flow of information is both slow and limited, resulting in a number of gaps and breaks in the PFM processes. This is essentially attributed to the lack of information standards and exchange mechanisms that make it difficult for the seamless flow of data across agencies.
 

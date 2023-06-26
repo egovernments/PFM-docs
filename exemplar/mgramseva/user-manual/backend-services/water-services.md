@@ -513,7 +513,7 @@ _Roles available_
 
 _Workflow business service config:_
 
-Create businessService (workflow configuration) using the __ `/businessservice/_create`. Following is the product configuration for water service
+Create businessService (workflow configuration) using the  `/businessservice/_create`. Following is the product configuration for water service
 
 ```
 {
@@ -653,4 +653,3 @@ _(Note: All the API’s are in the same postman collection therefore the same li
 
 > [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
-__

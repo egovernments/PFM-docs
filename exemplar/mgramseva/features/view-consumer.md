@@ -26,7 +26,7 @@ Static HH card which displays the following details
 * When Bill is not generated (Post rollout until the first month)
   * Only Data Card is shown - No action required  &#x20;
   * After the first demand is generated - A new consumer bill/Card gets generated with the following data points and actions
-    * &#x20;**** Billing Cycle – the latest billing cycle
+    * &#x20;Billing Cycle – the latest billing cycle
       * Amount -&#x20;
         * Current Amount - fixed charges applicable to the billing cycle
         * Arrears - Arrears from the first month. From next month onwards this field will display any unpaid dues.

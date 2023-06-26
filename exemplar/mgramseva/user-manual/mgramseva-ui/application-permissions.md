@@ -56,7 +56,7 @@ Select the AVD manager from the right side top corner as shown in the image. Now
 
 Select the chrome option from device selection and tap on the play button. This launches the application on a chrome window.
 
-Note: To resolve cors error follow the steps provided **** in this [link.](https://stackoverflow.com/questions/65630743/how-to-solve-flutter-web-api-cors-error-only-with-dart-code)\
+Note: To resolve cors error follow the steps provided in this [link.](https://stackoverflow.com/questions/65630743/how-to-solve-flutter-web-api-cors-error-only-with-dart-code)\
 
 
 ## **Steps to Build Prod App Bundle**
@@ -78,7 +78,7 @@ Note: To resolve cors error follow the steps provided **** in this [link.](https
 8. Download the key-store from the below link \
    [<img src="https://developers.google.com/drive/images/drive_icon.png" alt="" data-size="line">https://drive.google.com/file/d/14teTA0nqHaFLEkgg\_LCHTcji5cRJDnXR/view?usp=sharing - Restricted link, try another account](https://drive.google.com/file/d/14teTA0nqHaFLEkgg\_LCHTcji5cRJDnXR/view?usp=sharing)\
    Add this properties file to the android app folder as shown in below image\
-   **android → key.properties** ![](../../../../.gitbook/assets/image-20220121-040629.png)****
+   **android → key.properties** ![](../../../../.gitbook/assets/image-20220121-040629.png)
 9. Download the google service json from below link\
    [<img src="https://developers.google.com/drive/images/drive_icon.png" alt="" data-size="line">google-services.json](https://drive.google.com/file/d/1USBY0a2sluHh2VwWxVcKhR7nzjkYnAmW/view?usp=sharing)\
    Add this json file to the android app folder as shown in below image\

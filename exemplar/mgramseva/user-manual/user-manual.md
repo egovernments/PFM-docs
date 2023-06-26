@@ -22,7 +22,11 @@ Sarpanch, Treasurer, Secretary and Revenue Collector as the first time user can 
 
 Click on the preferred language button. The app functions and screens will be available in the selected language.
 
-![](https://lh3.googleusercontent.com/2wpMLQLhJjGuYx2XXqHK5K2NImmxhEqKVGLynZQGC07ekvb6Kd4PKRV0QCYgIWHNDVzP2dc1Ny6Xf8vPSmUqhElXbE3F5d823hNy7AtX2PFrHRsnK0slqQIt74cB-\_BZsKsIGbI=s0)
+<div align="center">
+
+<img src="https://lh3.googleusercontent.com/2wpMLQLhJjGuYx2XXqHK5K2NImmxhEqKVGLynZQGC07ekvb6Kd4PKRV0QCYgIWHNDVzP2dc1Ny6Xf8vPSmUqhElXbE3F5d823hNy7AtX2PFrHRsnK0slqQIt74cB-_BZsKsIGbI=s0" alt="">
+
+</div>
 
 Enter the registered mobile number and the Password received via SMS.
 

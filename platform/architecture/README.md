@@ -12,7 +12,11 @@ The iFIX platform architecture and the interacting systems are divided into 3 pa
 2. External Agency Systems
 3. Common Reference Data
 
-![](<../../.gitbook/assets/image (17).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (17) (2).png" alt="">
+
+</div>
 
 ### iFIX Platform
 
@@ -44,4 +48,3 @@ We can link fiscal events with common reference data to derive more value from t
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)_​_](http://creativecommons.org/licenses/by/4.0/)_All content on this page by_ [_eGov Foundation_](https://egov.org.in/) _is licensed under a_ [_Creative Commons Attribution 4.0 International License_](http://creativecommons.org/licenses/by/4.0/)_._
 
-__
