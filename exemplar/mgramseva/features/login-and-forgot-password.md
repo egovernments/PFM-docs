@@ -10,13 +10,13 @@ The users receive a link through SMS. Clicking on this link redirects the users 
 
 The link in the SMS redirects users to this screen which is the first screen which is the language selection screen. The user selects the preferred language and clicks on Continue. English, Hindi, and Punjabi are the supported languages with Punjabi as the default language. Localization in the screens is displayed based on the language selected.
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (1).png>)
 
 ## **User Id and Password Entry**&#x20;
 
 The user enters the User ID, which is the registered mobile number of the user, and the system-generated password. Clicking on the Continue button logs in the user.
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 ## **Forgot Password**
 
