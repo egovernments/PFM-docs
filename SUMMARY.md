@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introducing Public Finance Management (iFIX)](README.md)
-  * [Reimagining PFM In India: Strategy & Approach Framework](introducing-public-finance-management-ifix/reimagining-pfm-in-india-strategy-and-approach-framework.md)
+  * [Strategy & Approach](introducing-public-finance-management-ifix/strategy-and-approach.md)
 * [Platform](platform/README.md)
   * [Release Notes](platform/release-notes/README.md)
     * [iFIX Core Release Notes](platform/release-notes/ifix-core-release-notes/README.md)
