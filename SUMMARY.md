@@ -20,6 +20,8 @@
   * [Architecture](platform/architecture/README.md)
     * [Technology](platform/architecture/technology.md)
   * [Services](platform/services.md)
+  * [Roadmap](platform/roadmap.md)
+  * [Source Code](https://github.com/egovernments/iFix)
   * [Setup](platform/installation/README.md)
     * [iFIX Service Setup](platform/installation/ifix-service-setup.md)
     * [Infrastructure Setup](platform/installation/infra-setup/README.md)
@@ -153,9 +155,7 @@
 
 * [Ecosystem](ecosystem/README.md)
   * [News and Events](ecosystem/news-and-events.md)
-* [Roadmap](community/roadmap.md)
 * [PFM Blogs](community/pfm-blogs/README.md)
   * [Why PFM Needs Fiscal Information Exchange Standards](community/pfm-blogs/why-pfm-needs-fiscal-information-exchange-standards.md)
-* [Source Code](https://github.com/egovernments/iFix)
 * [Discussions](https://github.com/egovernments/iFix/discussions)
 * [Issues](https://github.com/egovernments/iFix/issues)
