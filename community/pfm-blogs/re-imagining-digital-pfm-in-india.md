@@ -1,21 +1,8 @@
-# Reimagining Digital PFM
+---
+description: 'Authors: Manish Srivastava and Prashanth Chandramouleeswaran'
+---
 
-## Overview Of eGovernments Foundation (eGov)
-
-eGov is a non-profit founded in 2003, by Mr. Nandan Nilekani and Mr. Srikanth Nadhamuni, as a collective of technologists, strategists, and policy professionals committed to solving societal challenges. We are problem-solvers and responsible builders of communities and ecosystems, motivated by a sense of responsibility for making countries better, and the purpose of finding solutions that can improve lives. eGov Foundation has built Digital Public Goods (DPGs) in Urban, Health, Sanitation, and Public Finance to improve the delivery of public services and enhance governance.
-
-DIGIT, an open-source GovTech platform for service delivery and good governance, underpins our work. DIGIT (Digital Infrastructure for Governance, Impact and Transformation) is an open, interoperable, free-to-use platform that offers solutions for citizens, first-mile employees, administrators, commercial players, and policymakers. DIGIT uses a building block approach, which ensures its capabilities can be reused, repurposed, and extended to new sectors to solve pressing problems.&#x20;
-
-DIGIT enhances the capability and agency of all actors. For citizens, it provides easy access and efficient services through a channel of their choice in both offline and online modes. First-mile employees become more effective through job aids and tools. Administrators can track system-level performance, plan resources, and make data-driven decisions. In addition, there is a significant reduction in program costs, time to results, and freedom from vendor lock-ins. Its open API architecture ensures easy integration with existing systems.&#x20;
-
-We have also built robust partnerships with governments and system integrators (SIs) to leverage DIGIT at scale:
-
-* We currently work with 6 countries and 16 sub-national governments
-* eGov has catalysed the National Urban Digital Mission in India, including the creation of a dedicated institution and funding lines to scale DIGIT to all 4600+ cities in India.
-* DIGIT has been adopted in over 1500 cities and 14000 Villages in India
-* DIGIT has served more than 300 million citizens
-* DIVOC has generated more than 2.3 billion verifiable vaccine certificates
-* 100+ partners have built 40+ solutions on DIGIT
+# Re-imagining Digital PFM in India
 
 ## Reimagining Digital Public Financial Management: Harnessing Information Exchange For Citizen-Centric Service Delivery
 
