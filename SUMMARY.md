@@ -158,6 +158,5 @@
 * [PFM Blogs](community/pfm-blogs/README.md)
   * [Why PFM Needs Fiscal Information Exchange Standards](community/pfm-blogs/why-pfm-needs-fiscal-information-exchange-standards.md)
   * [Re-imagining Digital PFM in India](community/pfm-blogs/re-imagining-digital-pfm-in-india.md)
-  * [Tackling Unemployment, Building Community Assets & Streamlining Payments](community/pfm-blogs/tackling-unemployment-building-community-assets-and-streamlining-payments.md)
 * [Discussions](https://github.com/egovernments/iFix/discussions)
 * [Issues](https://github.com/egovernments/iFix/issues)
