@@ -157,5 +157,6 @@
   * [News and Events](ecosystem/news-and-events.md)
 * [PFM Blogs](community/pfm-blogs/README.md)
   * [Why PFM Needs Fiscal Information Exchange Standards](community/pfm-blogs/why-pfm-needs-fiscal-information-exchange-standards.md)
+  * [Reimagining Digital PFM](community/pfm-blogs/reimagining-digital-pfm.md)
 * [Discussions](https://github.com/egovernments/iFix/discussions)
 * [Issues](https://github.com/egovernments/iFix/issues)
