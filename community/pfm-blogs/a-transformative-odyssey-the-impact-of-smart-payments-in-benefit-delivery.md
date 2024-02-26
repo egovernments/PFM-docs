@@ -1,10 +1,6 @@
----
-description: >-
-  Authors: Ritika Singh, MSC | Prashanth Chandramouleeswaran & Ameya Ashok Naik,
-  eGov
----
-
 # A Transformative Odyssey: The Impact of Smart Payments in Benefit Delivery
+
+Authors: Ritika Singh, [MSC](https://www.microsave.net/) | Prashanth Chandramouleeswaran & Ameya Ashok Naik, eGov
 
 ## Background
 
@@ -14,11 +10,11 @@ While promising, digital G2P payments remain in their early stages, and face cha
 
 ## Admirable Goal, Administrative Friction
 
-MUKTA is a pioneering initiative, designed to generate wage employment for vulnerable workers in urban Odisha during the COVID-19 pandemic. Rooted in community needs and responsive to local demands, MUKTA leverages existing Community Based Organizations (CBOs) to execute public works projects which are sustainable and climate resilient. These CBOs enlist wage seekers to work on these projects, generating income for the latter.&#x20;
+&#x20;[<mark style="color:blue;">MUKTA</mark>](#user-content-fn-2)[^2] is a pioneering initiative, designed to generate wage employment for vulnerable workers in urban Odisha during the COVID-19 pandemic. Rooted in community needs and responsive to local demands, MUKTA leverages existing Community Based Organizations (CBOs) to execute public works projects which are sustainable and climate resilient. These CBOs enlist wage seekers to work on these projects, generating income for the latter.&#x20;
 
 Delayed payments to CBOs and wage seekers were a key scheme implementation challenge. Beneficiaries faced lengthy wait times, with a baseline study across two pilot Urban Local Bodies (ULBs) finding that over 50% of completed tasks were not processed for payment, and the rest encountered delays exceeding one month. Wage seekers come from low-income households, and such delays undermine the scheme’s welfare objectives.
 
-Such delays arise largely from cumbersome, paper-based compliances, billing, and verification processes. Every step – from attendance tracking and bill submission, to verification, approvals, and payment instructions – relied on manual processes. This increases the administrative burden on local government personnel, who are often already overburdened. These long-drawn processes also resulted in underutilisation of sanctioned funding, with funds parked idle in banks and limited transparency.
+Such delays arise largely from cumbersome, paper-based compliances, billing, and verification processes. Every step – from attendance tracking and bill submission, to verification, approvals, and payment instructions – relied on manual processes. This increased the administrative burden on local government personnel, who are often already overburdened. These long-drawn processes also resulted in underutilisation of sanctioned funding, with funds parked idle in banks and limited transparency.
 
 ## Making Processes And Payments Smarter
 
@@ -77,5 +73,9 @@ The early success observed with smart payments for the MUKTA scheme underscores 
 Odisha's journey sets a model for an efficient and citizen-centric benefit delivery system, emphasising the need for adaptive strategies, collaborative partnerships, and a commitment to governance principles. Tailored to the local context, the solution can progress from basic Smart Payments, encompassing digital recording of conditional payments and compliances, to a medium level incorporating workflow management systems and APIs. The ultimate moonshot solution integrates AI/ML models, smart devices, and Internet-of-Things (IoT) to revolutionise the public finance landscape.
 
 [^1]: Mukhyamantri Karma Tatpara Abhiyan Yojana (MUKTA Yojana) is a government scheme aimed towards providing employment to the urban poor and consequently improving the employment rate of the state.
+
+    MUKTASoft aims to improve the overall scheme efficiency of MUKTA by identifying & providing equal job opportunities to the urban poor, constructing environment-friendly projects, developing local communities and slums & planning better in the upcoming years.
+
+[^2]: Mukhyamantri Karma Tatpara Abhiyan Yojana (MUKTA Yojana) is a government scheme aimed towards providing employment to the urban poor and consequently improving the employment rate of the state.
 
     MUKTASoft aims to improve the overall scheme efficiency of MUKTA by identifying & providing equal job opportunities to the urban poor, constructing environment-friendly projects, developing local communities and slums & planning better in the upcoming years.
