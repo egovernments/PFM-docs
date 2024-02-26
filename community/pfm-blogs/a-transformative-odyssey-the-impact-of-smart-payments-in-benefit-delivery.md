@@ -1,3 +1,9 @@
+---
+description: >-
+  Authors: Ritika Singh, MSC | Prashanth Chandramouleeswaran & Ameya Ashok Naik,
+  eGov
+---
+
 # A Transformative Odyssey: The Impact of Smart Payments in Benefit Delivery
 
 ## Background
