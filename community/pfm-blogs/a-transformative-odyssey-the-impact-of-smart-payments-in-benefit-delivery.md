@@ -1,6 +1,6 @@
 # A Transformative Odyssey: The Impact of Smart Payments in Benefit Delivery
 
-Authors: Ritika Singh, [MSC](https://www.microsave.net/) | Prashanth Chandramouleeswaran & Ameya Ashok Naik, eGov
+_Authors: Ritika Singh,_ [_MSC_](https://www.microsave.net/) _| Prashanth Chandramouleeswaran & Ameya Ashok Naik, eGov_
 
 ## Background
 
