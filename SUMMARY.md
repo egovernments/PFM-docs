@@ -158,5 +158,6 @@
 * [PFM Blogs](community/pfm-blogs/README.md)
   * [Why PFM Needs Fiscal Information Exchange Standards](community/pfm-blogs/why-pfm-needs-fiscal-information-exchange-standards.md)
   * [Re-imagining Digital PFM in India](community/pfm-blogs/re-imagining-digital-pfm-in-india.md)
+  * [A Transformative Odyssey: The Impact of Smart Payments in Benefit Delivery](community/pfm-blogs/a-transformative-odyssey-the-impact-of-smart-payments-in-benefit-delivery.md)
 * [Discussions](https://github.com/egovernments/iFix/discussions)
 * [Issues](https://github.com/egovernments/iFix/issues)
